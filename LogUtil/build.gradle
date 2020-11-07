@@ -1,5 +1,4 @@
 apply plugin: 'com.android.library'
-//apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
@@ -7,7 +6,7 @@ repositories {
     mavenCentral()
     google()
     jcenter()
-    maven { url "https://jitpack.io" }
+//    maven { url "https://jitpack.io" }
 }
 
 group = 'com.github.yaros-c'
